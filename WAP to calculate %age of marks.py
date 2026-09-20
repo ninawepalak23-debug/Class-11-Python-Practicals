@@ -1,0 +1,10 @@
+print('Welcome to the  percentage Calculator of marks')
+print('Please enter your marks out of 100')
+m1=int(input('Enter Marks in First Subject: '))
+m2=int(input('Enter Marks in Second Subject: '))
+m3=int(input('Enter Marks in Third Subject: '))
+m4=int(input('Enter Marks in Fourth Subject: '))
+m5=int(input('Enter Marks in Fifth Subject: '))
+m6=int(input('Enter Marks in Sixth Subject: '))
+percentage=((m1+m2+m3+m4+m5+m6)/600)*100
+print('Your percentage in all six subjects is: ', percentage)
